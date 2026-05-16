@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.6.0/fonts/remixicon.css"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="signup.css" />
+  <link rel="stylesheet" href="styles.css"
+  <title>Sign Up | Yoga Club</title>
+</head>
+
+<body>
+
+  <nav>
+    <div class="nav__header">
+      <div class="nav__logo">
+        <a href="index.html">
+          <img src="assets/logo-white.png" alt="logo" class="logo-white" />
+          <img src="assets/logo-dark.png" alt="logo" class="logo-dark" />
+        </a>
+      </div>
+      <div class="nav__menu__btn" id="menu-btn">
+        <i class="ri-menu-4-line"></i>
+      </div>
+    </div>
+
+    <ul class="nav__links" id="nav-links">
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="#">SERVICE</a></li>
+      <li><a href="#">PORTFOLIO</a></li>
+      <li><a href="#">CONTACT US</a></li>
+      <li><a href="signup.html">SIGN UP</a></li>
+      <li><a href="#">SIGN IN</a></li>
+    </ul>
+  </nav>
+
+  <section class="signup">
+    <div class="signup__container">
+      <h1>Create Your Account</h1>
+      <p>Join our yoga community and start your journey today.</p>
+
+      <form class="signup__form">
+        <div class="input__group">
+          <label>Full Name</label>
+          <input type="text" placeholder="Enter your name" required />
+        </div>
+
+        <div class="input__group">
+          <label>Email Address</label>
+          <input type="email" placeholder="Enter your email" required />
+        </div>
+
+        <div class="input__group">
+          <label>Password</label>
+          <input type="password" placeholder="Create a password" required />
+        </div>
+
+        <button type="submit" class="signup__btn">Sign Up</button>
+
+        <p class="signup__login">
+          Already have an account? <a href="signin.html">Sign in</a>
+        </p>
+      </form>
+      <div class="signup__divider">
+        <span></span>
+        <p>Or sign up with</p>
+        <span></span>
+      </div>
+
+      <div class="social__signup">
+        <button class="social google"><i class="ri-google-fill"></i> Google</button>
+        <button class="social facebook"><i class="ri-facebook-fill"></i> Facebook</button>
+        <button class="social instagram"><i class="ri-instagram-line"></i> Instagram</button>
+        <button class="social autodesk"><i class="ri-shape-2-line"></i> Autodesk</button>
+        <button class="social bloxd"><i class="ri-gamepad-line"></i> Bloxd.io</button>
+        <button class="social microsoft"><i class="ri-windows-fill"></i> Microsoft</button>
+      </div>
+
+    </div>
+  </section>
+
+  <script src="main.js"></script>
+</body>
+</html>

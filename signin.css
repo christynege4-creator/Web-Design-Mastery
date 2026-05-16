@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap");
+
+:root {
+  --primary-color: #9a4b7b;
+  --primary-color-dark: #782a59;
+  --text-dark: #333;
+  --white: #fff;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background: #f8f4f7;
+}
+
+.signin {
+  padding: 8rem 1rem 4rem;
+  display: flex;
+  justify-content: center;
+}
+
+.signin__container {
+  max-width: 450px;
+  width: 100%;
+  background: #fff;
+  padding: 2.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.signin__container h1 {
+  font-size: 2.5rem;
+  color: var(--primary-color);
+  margin-bottom: 0.5rem;
+}
+
+.signin__container p {
+  color: var(--text-dark);
+  margin-bottom: 2rem;
+}
+
+.input__group {
+  text-align: left;
+  margin-bottom: 1.5rem;
+}
+
+.input__group label {
+  font-weight: 600;
+  color: var(--text-dark);
+}
+
+.input__group input {
+  width: 100%;
+  padding: 0.9rem 1rem;
+  margin-top: 0.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  outline: none;
+  transition: 0.3s;
+}
+
+.input__group input:focus {
+  border-color: var(--primary-color);
+}
+
+.signin__btn {
+  width: 100%;
+  padding: 1rem;
+  background: linear-gradient(135deg, var(--primary-color), var(--primary-color-dark));
+  color: #fff;
+  border: none;
+  border-radius: 3rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.35s ease;
+  box-shadow: 0 6px 20px rgba(154, 75, 123, 0.35);
+}
+
+.signin__btn:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(154, 75, 123, 0.45);
+  opacity: 0.95;
+}
+
+.signin__signup {
+  margin-top: 1.5rem;
+}
+
+.signin__signup a {
+  color: var(--primary-color);
+  font-weight: 600;
+}
